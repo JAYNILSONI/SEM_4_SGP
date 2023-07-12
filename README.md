@@ -2,10 +2,12 @@
 
 
 Abstract
+
 Our goal is to develop a decentralized application called a land registry using the Ethereum blockchain. The land owner will be able to register their land details and value, along with appropriate proof, through this app. However, only a registered registrar or government authority acting as the super admin will be able to oversee the registration process. Only lands falling under a specific region, such as a village, will be able to register through the assigned super admin. The smart contract is designed to require the owner to transfer the entire asset to the buyer, and partial transactions are not allowed. Although the registration process requires government authority, it is transparent and the transaction occurs directly between the two parties without the need for intermediaries.
 
 
 How our solution work
+
 Our project on Land Registry using blockchain requires an understanding of the technology and its capabilities. Here is a theoretical overview of how our project was implemented:
 Design the system architecture: The first step in implementing the project was to design the system architecture. This involved identifying the components required, such as the blockchain platform (e.g., Ethereum), the smart contract language (e.g., Solidity), and the user interface (e.g., web application). It involved designing the data model and the business logic that would govern the land registry system.
 Develop the smart contracts: The next step was to develop the smart contracts that would govern the land registry system. This involved writing the code in Solidity and testing it using a local blockchain network such as Ganache. The smart contracts is responsible for managing land ownership, registering new landowners, recording land transactions, and enforcing the business logic of the system.
@@ -15,6 +17,7 @@ Test and refine the system: After the system has been deployed, it was necessary
 
 
 Conclusion
+
 In conclusion, our project on land registry using blockchain is a great solution for registering land ownership and transactions. By leveraging the decentralized architecture and smart contract capabilities of the Ethereum blockchain, we have created a secure and transparent platform that eliminates the need for intermediaries, reduces the risk of fraud, and promotes efficiency in land transactions.
 Our solution provides a high level of transparency and security, as all the details of the land transactions are recorded on the blockchain, creating an immutable record that cannot be altered or deleted. This ensures that all parties involved in the transaction have access to the same information, reducing the risk of disputes and fraud.
 Our project also promotes efficiency by eliminating the need for intermediaries, reducing the time and cost involved in land transactions. This makes the process more efficient and accessible, especially in areas where traditional land registry systems are inefficient or inaccessible.
